@@ -1,7 +1,7 @@
 ## Welcome to Han Qiao's Pages
 
 You can use the [editor on GitHub](https://github.com/hqiao97/hqiao97.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-[public finance news](https://github.com/hqiao97/hqiao97.github.io/pf)
+[public finance news](https://github.com/hqiao97/pf)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
