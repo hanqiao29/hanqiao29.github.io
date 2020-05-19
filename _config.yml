@@ -2,4 +2,3 @@ theme: jekyll-theme-minimal
 name: Han Qiao
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-plugins: - jekyll-seo-tag
