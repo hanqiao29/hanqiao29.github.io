@@ -28,15 +28,18 @@ h2{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #333;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 h3{
     font-size: 1em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin-top: 20px;
 }
 p {
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 1.4em;
     color: #333;
+    font-family: "Times New Roman";
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -53,4 +56,14 @@ ul.posts li {
 }
 img{
     max-width: 100%;
+}
+.image{
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.container:hover .image {
+  opacity: 0.3;
 }
