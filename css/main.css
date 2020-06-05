@@ -20,6 +20,7 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
+    font-weight: bold;
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
@@ -35,12 +36,23 @@ h3{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin-top: 20px;
 }
+
 p {
     font-size: 1em;
     line-height: 1.4em;
     color: #333;
     font-family: "Times New Roman";
 }
+
+p.skill {
+    /*background-color: #ECEAC8;
+    border-radius: 25px;*/
+    font-size: 0.7em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: bold;
+    color: #8D8D8D;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -59,11 +71,16 @@ img{
     max-width: 100%;
 }
 
+img.skillicon{
+    max-width: 25px;
+    margin: 1px;
+}
+
 .image{
     opacity: 1;
     display: block;
     height: auto;
-    transition: .5s ease;
+    transition: .3s ease;
     backface-visibility: hidden;
 }
 .imgcontainer:hover .image {
