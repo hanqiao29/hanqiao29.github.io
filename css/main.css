@@ -44,6 +44,16 @@ p {
     font-family: "Times New Roman";
 }
 
+p.projectinfo{
+    font-size: 13px;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #8D8D8D;
+}
+
+p.projectdes{
+    color: #5D5D5D
+}
+
 p.skill {
     /*background-color: #ECEAC8;
     border-radius: 25px;*/
@@ -69,6 +79,7 @@ ul.posts li {
 
 img{
     max-width: 100%;
+    margin-bottom: 20px;
 }
 
 img.skillicon{
@@ -86,4 +97,11 @@ img.skillicon{
 .imgcontainer:hover .image {
   opacity: 0.3;
 
+}
+
+#ec{
+    display: block;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }

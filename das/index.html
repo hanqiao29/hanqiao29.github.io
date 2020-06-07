@@ -6,29 +6,102 @@ title: Portfolio.
 	<link rel="shortcut icon" type="/image/png" href="../image/hanicon.png">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
+
 </head>
 
-	<h1>Corridor Planning</h1>
+	<h2>Designing Delaware Avenue South</h2>
 
-	<h2>Desining Delaware Avenue South</h2>
-	<!-- First project  -->
-		<div class="row">
-			<div class="col-sm">
-				<div class="mr-2">
+	<p class="projectinfo">Spring 2010 | University of Pennsylvania <br>
+	Team: Zining Chen, Lily Cheng, Gil Lehmann, Shiyu Mao, Han Qiao,
+	Paulina Safarian, Cade Underwood, Rich Freeh
+	</p>
 
-						<img src="dasplan1.png" alt="Project book display" class="image"/>
-				
-					<div class="blurb">
-						<h3>Delaware Avenue South Plan</h3>
-						<p>This is a semester long project, where we worked in a team of 7
-							to identify issues and opportunities along Delaware Avenue and in
-							adjacent neighborhoods. The final product is a book which contains
-							graphics, maps, and analysis to deliver recommendations for the
-							future development in the study area.
-						</p>
-					</div>
+	<img src="dasmap.png" alt="Context Map of the Study Area" class="image"/>
+	<div class="blurb">
+		<h3>Overview</h3>
+		<p class="projectdes">This is a project for CPLN 600 Planning Workshop at University of Pennsylvania in Spring 2020.
+			From January to May 2020, my group of seven city planning students
+			(Zining Chen, Lily Cheng, Gil Lehmann, Shiyu Mao, Han Qiao, Paulina Safarian, Cade Underwood)
+			coming from different concentrations and our group instructor (Rich Freeh),
+			together completed a book that contains our analysis on the current
+			condition of the Delaware Avenue South area in Philadelphia as well
+			as recommendations for future development through the lenses of
+			environmental resiliency, community building, and transportation connectivity.
+		</p>
+		<h3>My Role</h3>
+		<p class="projectdes">As one of the two members in our group concentrated in transportation,
+			I was mainly responsible for the transportation sections of the book,
+			including conducting data analysis on travel behavior of the study area,
+			identifying issues and opportunities of current transportation
+			infrastructures, and researching on past and future projects that
+			will affect people’s everyday travel.
+		</p>
+		<h3>Project Timeline</h3>
+		<p class="projectdes">
+			<b>Phase 1: Existing Condition</b><br>
+			We first analyzed the current condition in our study area through
+			site visits, conducting interviews with local organizations,
+			and collecting demographic, economic, housing and transportation related data.
+		</p>
+		<p class="projectdes">
+			<b>Phase 2: Issues and Opportunities</b><br>
+			Then we identified issues and opportunities in our study area according to
+			the three key areas: environmental resiliency, community development, and
+			transportation connectivity.
+		</p>
+		<!-- <img src="ec.png" alt="Existing Conditions" id="ec"/> -->
+		<p class="projectdes">
+			<b>Phase 3: Alternatives</b><br>
+			In the third phase, we came up with three mutually exclusive and bold
+			alternative development plans for the study area, each of which focuses
+			on addressing one of the goals.
+		</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">
+					<img src="a1.png" alt="Alternatives 1" class="alt"/>
+				</div>
+				<div class="col-sm">
+					<img src="a2.png" alt="Alternatives 2" class="alt"/>
+				</div>
+				<div class="col-sm">
+					<img src="a3.png" alt="Alternatives 3" class="alt"/>
 				</div>
 			</div>
-	</div>
+		</div>
+		<p class="projectdes">
+			<b>Phase 4: Recommendations</b><br>
+			In the end, we evaluated the importance and urgency of recommendations
+			from each of the alternatives, and created a full list of eight recommendations
+			on the future development of the study area.
+		</p>
+		<h3>Book Example Pages</h3>
+		<img src="p1.png" alt="Alternatives 1" class="slides"/>
+		<img src="p2.png" alt="Alternatives 1" class="slides"/>
+		<img src="p3.png" alt="Alternatives 1" class="slides"/>
+		<img src="p4.png" alt="Alternatives 1" class="slides"/>
+		<img src="p5.png" alt="Alternatives 1" class="slides"/>
+		<img src="p6.png" alt="Alternatives 1" class="slides"/>
+		<img src="p7.png" alt="Alternatives 1" class="slides"/>
+		<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+		<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
 
-	</div><!-- /.blurb -->
+			function plusDivs(n) {
+			  showDivs(slideIndex += n);
+			}
+
+			function showDivs(n) {
+			  var i;
+			  var x = document.getElementsByClassName("slides");
+			  if (n > x.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = x.length}
+			  for (i = 0; i < x.length; i++) {
+			    x[i].style.display = "none";
+			  }
+			  x[slideIndex-1].style.display = "block";
+			}
+		</script>
+	</div>
