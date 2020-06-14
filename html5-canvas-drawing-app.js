@@ -93,36 +93,36 @@ function prepareCanvas()
 	// -----------
 	crayonImage.onload = function() { resourceLoaded();
 	};
-	crayonImage.src = "https://github.com/hqiao97/hqiao97.github.io/tree/master/images/crayon-outline.png";
+	crayonImage.src = "images/crayon-outline.png";
 	//context.drawImage(crayonImage, 0, 0, 100, 100);
 
 	markerImage.onload = function() { resourceLoaded();
 	};
-	markerImage.src = "https://github.com/hqiao97/hqiao97.github.io/tree/master/images/marker-outline.png";
+	markerImage.src = "images/marker-outline.png";
 
 	eraserImage.onload = function() { resourceLoaded();
 	};
-	eraserImage.src = "https://github.com/hqiao97/hqiao97.github.io/tree/master/images/eraser-outline.png";
+	eraserImage.src = "images/eraser-outline.png";
 
 	crayonBackgroundImage.onload = function() { resourceLoaded();
 	};
-	crayonBackgroundImage.src = "https://github.com/hqiao97/hqiao97.github.io/tree/master/images/crayon-background.png";
+	crayonBackgroundImage.src = "images/crayon-background.png";
 
 	markerBackgroundImage.onload = function() { resourceLoaded();
 	};
-	markerBackgroundImage.src = "https://github.com/hqiao97/hqiao97.github.io/tree/master/images/marker-background.png";
+	markerBackgroundImage.src = "images/marker-background.png";
 
 	eraserBackgroundImage.onload = function() { resourceLoaded();
 	};
-	eraserBackgroundImage.src = "https://github.com/hqiao97/hqiao97.github.io/tree/master/images/eraser-background.png";
+	eraserBackgroundImage.src = "images/eraser-background.png";
 
 	crayonTextureImage.onload = function() { resourceLoaded();
 	};
-	crayonTextureImage.src = "https://github.com/hqiao97/hqiao97.github.io/tree/master/images/crayon-texture.png";
+	crayonTextureImage.src = "images/crayon-texture.png";
 
 	outlineImage.onload = function() { resourceLoaded();
 	};
-	outlineImage.src = "https://github.com/hqiao97/hqiao97.github.io/tree/master/images/mountain-outline.png";
+	outlineImage.src = "images/mountain-outline.png";
 
 	// Add mouse events
 	// ----------------
