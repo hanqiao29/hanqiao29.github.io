@@ -16,7 +16,7 @@ for human beings.
 
 "About Time" 2013. If we could live our lives multiple times, would you change anything?
 
-"Arrival" 2016. Human thinks linearly, whereas aliens don't.
+"Arrival" 2016. Human think linearly, whereas aliens don't.
 
 "5 Centimeters per Second" 2007. What defines distance between people? space, time, or neither?
 
