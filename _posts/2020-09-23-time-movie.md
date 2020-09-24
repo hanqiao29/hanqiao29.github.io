@@ -14,7 +14,7 @@ I was having an enjoyable dinner with a friend, when he suddenly frowned at the 
 So we ended up watching a few movies about time, the subject that is most mysterious
 for human beings.
 
-"About Time" 2013. If we could life our lives multiple times, would you change anything?
+"About Time" 2013. If we could live our lives multiple times, would you change anything?
 
 "Arrival" 2016. Human thinks linearly, whereas aliens don't.
 
