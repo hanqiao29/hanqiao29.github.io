@@ -25,14 +25,14 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h2{
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #333;
     margin-bottom: 20px;
     margin-top: 30px;
 }
 h3{
-    font-size: 1em;
+    font-size: 1.1em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin-top: 20px;
 }
@@ -41,7 +41,9 @@ p {
     font-size: 1em;
     line-height: 1.4em;
     color: #333;
-    font-family: "Times New Roman";
+    /* font-family: "Times New Roman"; */
+    font-family: 'proxima-nova','Helvetica Neue', Helvetica, sans-serif;
+    letter-spacing: 0.3px;
 }
 
 p.projectinfo{
@@ -54,7 +56,7 @@ p.projectdes{
     color: #5D5D5D
 }
 
-p.skill {
+.skill {
     /*background-color: #ECEAC8;
     border-radius: 25px;*/
     font-size: 0.7em;
@@ -80,6 +82,8 @@ ul.posts li {
 img{
     max-width: 100%;
     margin-bottom: 20px;
+    box-shadow: 0 8px 8px -4px rgb(159, 162, 163);
+    border-radius: 2%;
 }
 
 img.skillicon{
@@ -87,12 +91,17 @@ img.skillicon{
     margin: 1px;
 }
 
+.blurb{
+    height: 200px;
+}
+
 .image{
     opacity: 1;
     display: block;
-    height: auto;
+    height: 300px;
     transition: .3s ease;
     backface-visibility: hidden;
+    border-radius: 2%
 }
 .imgcontainer:hover .image {
   opacity: 0.3;
@@ -103,7 +112,16 @@ img.skillicon{
     max-height: 300px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0 0 0 0 rgb(159, 162, 163);
+
 }
+/* #bs{
+    display: block;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+} */
 
 /* About page profile picture */
 .header{
