@@ -76,6 +76,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+    background-color: white;
   }
 
 ul.posts {
@@ -113,6 +114,10 @@ img.skillicon{
 }
 .imgcontainer:hover .image {
   opacity: 0.3;
+}
+
+#hanpic{
+    box-shadow: 0 0 0 0 rgb(159, 162, 163);
 }
 
 #ec{
