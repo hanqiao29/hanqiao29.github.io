@@ -1,174 +1,172 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+  margin: 60px auto;
+  width: 70%;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+nav ul,
+footer ul {
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+nav ul li,
+footer ul li {
+  display: inline;
+  margin-right: 20px;
 }
 a {
-    text-decoration: none;
-    color: #999;
+  text-decoration: none;
+  color: #999;
 }
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 h1 {
-    font-weight: bold;
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-weight: bold;
+  font-size: 3em;
+  font-family: "Helvetica", "Arial", "Sans-Serif";
 }
-h2{
-    font-size: 1.3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #333;
-    margin-bottom: 20px;
-    margin-top: 30px;
+h2 {
+  font-size: 1.3em;
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+  color: #333;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
-h3{
-    font-size: 1.1em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    margin-top: 20px;
+h3 {
+  font-size: 1.1em;
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+  margin-top: 20px;
 }
 
 p {
-    font-size: 1em;
-    line-height: 1.4em;
-    color: #333;
-    /* font-family: "Times New Roman"; */
-    font-family: 'proxima-nova','Helvetica Neue', Helvetica, sans-serif;
-    letter-spacing: 0.3px;
+  font-size: 1em;
+  line-height: 1.4em;
+  color: #333;
+  /* font-family: "Times New Roman"; */
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, sans-serif;
+  letter-spacing: 0.3px;
 }
 
-p.projectinfo{
-    font-size: 13px;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #8D8D8D;
+p.projectinfo {
+  font-size: 13px;
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+  color: #8d8d8d;
 }
 
-p.projectdes{
-    color: #5D5D5D
+p.projectdes {
+  color: #5d5d5d;
 }
 
 .skill {
-    /*background-color: #ECEAC8;
+  /*background-color: #ECEAC8;
     border-radius: 25px;*/
-    font-size: 0.7em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-weight: bold;
-    color: #8D8D8D;
+  font-size: 0.7em;
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+  font-weight: bold;
+  color: #8d8d8d;
 }
 
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  border-top: 1px solid #d5d5d5;
+  font-size: 0.8em;
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-  }
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
 
 ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
+  margin: 20px auto 40px;
+  font-size: 1.5em;
 }
 
 ul.posts li {
-    list-style: none;
+  list-style: none;
 }
 
-img{
-    max-width: 100%;
-    margin-bottom: 20px;
-    box-shadow: 0 8px 8px -4px rgb(159, 162, 163);
-    border-radius: 2%;
+img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 8px -4px rgb(159, 162, 163);
+  border-radius: 2%;
 }
 
-img.skillicon{
-    max-width: 25px;
-    margin: 1px;
+img.skillicon {
+  max-width: 25px;
+  margin: 1px;
 }
 
-/* .blurb{
-    height: 200px;
-} */
-
-.image{
-    opacity: 1;
-    display: block;
-    height: 300px;
-    transition: .3s ease;
-    backface-visibility: hidden;
-    border-radius: 2%
+.image {
+  opacity: 1;
+  display: block;
+  height: 300px;
+  transition: 0.3s ease;
+  backface-visibility: hidden;
+  border-radius: 2%;
 }
 .imgcontainer:hover .image {
   opacity: 0.3;
 }
 
-#hanpic{
-    box-shadow: 0 0 0 0 rgb(159, 162, 163);
+#hanpic {
+  box-shadow: 0 0 0 0 rgb(159, 162, 163);
 }
 
-#ec{
-    display: block;
-    max-height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 0 0 0 rgb(159, 162, 163);
-
+#ec {
+  display: block;
+  max-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 0 0 rgb(159, 162, 163);
 }
 
-#pdm{
-    display: block;
-    max-height: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 0 0 0 rgb(159, 162, 163);
-
+#pdm {
+  display: block;
+  max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 0 0 rgb(159, 162, 163);
 }
 
 /* About page profile picture */
-.header{
-    overflow:auto;
+.header {
+  overflow: auto;
 }
+
 .header img {
   float: left;
   height: 80px;
-  margin-top:20px;
+  margin-top: 20px;
   margin-left: 30px;
 }
 
 .header h1 {
-     float:left;
+  float: left;
   position: relative;
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: relative;
   top: 50%;
   width: 40px;
-  height: 5px
+  height: 5px;
   padding: 16px;
   color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-  border:none;
-  background-color: #A4A4A4;
+  border: none;
+  background-color: #a4a4a4;
   user-select: none;
   margin-bottom: 20px;
 }
@@ -179,21 +177,22 @@ img.skillicon{
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-#future{
-    color: rgb(102, 41, 102);
-    font-weight: bold;
+#future {
+  color: rgb(102, 41, 102);
+  font-weight: bold;
 }
 
-#dine{
-    color: rgb(207, 130, 28);
-    font-weight: bold;
+#dine {
+  color: rgb(207, 130, 28);
+  font-weight: bold;
 }
 
-#das{
-    color:rgb(52, 137, 158);
-    font-weight: bold;
+#das {
+  color: rgb(52, 137, 158);
+  font-weight: bold;
 }
