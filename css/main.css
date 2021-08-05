@@ -100,9 +100,9 @@ img.skillicon{
     margin: 1px;
 }
 
-.blurb{
+/* .blurb{
     height: 200px;
-}
+} */
 
 .image{
     opacity: 1;
@@ -176,5 +176,10 @@ img.skillicon{
 
 #future{
     color: rgb(102, 41, 102);
+    font-weight: bold;
+}
+
+#das{
+    color:rgb(52, 137, 158);
     font-weight: bold;
 }
