@@ -1,0 +1,111 @@
+---
+layout: default
+title: Portfolio.
+---
+
+<head>
+	<link rel="shortcut icon" type="image/png" href="/image/hanicon.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+
+<h2>PanDineMate</h2>
+
+	<p class="projectinfo">Spring 2021 | University of Pennsylvania <br>
+	Teammates: Andrew Wang, Jingzong Wang
+	</p>
+
+	<img id="ec" style="height: 400px" src="image/pdm-mockup.png" alt="wep app mockup image" />
+	<div class="blurb">
+		<h3 id="dine"><b>Overview</b></h3>
+		<p class="projectdes">PanDineMate is a web application / data visualization 
+            dashboard that provides people assistance in making more informed decisions 
+            on where to eat amidst the COVID-19 pandemic.
+        </p>
+
+		
+		<h3 id="dine">My Role</h3>
+		<p class="projectdes">
+			Throughout the whole process, my team of 3 urban planners 
+            worked closely together to bring this application to live. 
+            I was mainly responsible for building the frontend and backend features 
+            that communicate between user and the Yelp database through Yelp API so that 
+            relative information can be displayed to users. I also served as the project 
+            manager of the team to breakdown the challenging parts into manageable pieces 
+            so different people can work together on different parts to meet our expectations.
+
+		<h3 id="dine">Key Features</h3>
+		<p class="projectdes">
+			<b>Location preference selection  </b>
+            <br>
+            Restaurants are first displayed by distance to users location. 
+            Users can either allow the web app to access their current location or manually 
+            change their location using the location selection button.
+
+        </p>
+        <img src="image/pdm-location.png" alt="location preference selection diagram" id="pdm" />
+		
+		<p class="projectdes">
+			<b>Restaurant preference selection </b>
+            <br>
+			Users can refine the restaurant recommendation display by using 
+            the “Search Option.” Users can enter keywords (business name or cuisine name), 
+            set price range, set rating standard and select the option for whether restaurants 
+            provide delivery options.
+            <br><br>
+            <img src="image/pdm-filter.png" alt="Selection filter image" id="pdm"/>
+		</p>
+
+		<p class="projectdes">
+			<b>Restaurant information display</b><br>
+            When a user clicks on a restaurant on the map, the name of the restaurant 
+            will pop up and the corresponding information will be displayed on the left. 
+            Information displayed is provided by Yelp developer database, including 
+            restaurant picture, location, phone number, rating and price range.
+		</p>
+        <img src="image/pdm-restinfo.png" alt="Restaurant information display" id="ec"/>
+
+        <p class="projectdes">
+			<b>Covid information display</b><br>
+            Covid information is displayed using a Leaflet map and a data dashboard. 
+            The background map is color coded based on the number of COVID-19 cases in the 
+            last two weeks -- the darker the area, the more positive COVID-19 cases are found. 
+            The COVID-19 information is updated in real time with the Philadelphia API Explorer. 
+            <br>
+            <br>
+            When a user clicks on a restaurant, COVID-19 vaccination information of 
+            the zip code area is displayed on the top right using a pie chart.
+            <br>
+            <br>
+            Finally, a COVID-19 risk assessment of the area is displayed on the left bottom 
+            of the sidebar. We coded three levels from low risk to medium risk and to high risk 
+            based on vaccination rate and number of new COVID-19 cases. For high risk areas, 
+            we suggested ordering take out and delivery. We also recommend that everyone wears a 
+            mask and brings a hand sanitizer when eating out.
+		</p>
+        <img src="image/pdm-covidinfo.png" alt="Restaurant information display" id="pdm"/>
+
+        
+
+		<p class="projectdes">
+			<h3  id="dine">Reflection and Takeaways</h3>
+			I see this project both as a success and as a failure. 
+            It is a success because my team worked together to create this web application,
+             which allowed us to not only apply technical skills we learned in class but 
+             gained experience in coding in a team. We learned how to plan out all the features 
+             and delegate tasks so that we can complete the project in a short amount of time.
+            <br>
+            <br>
+            However, it is also a failure because after the project is completed, 
+            I realized that this is a product that few people would use. Although concerned 
+            about the pandemic, people would be unlikely to choose a restaurant based on COVID-19 
+            cases in a zip code neighborhood. Through this project, I learned the importance of user 
+            research. Any product built without users in mind will never make the impact that 
+            the creators hope for.
+            <br>
+            <br>
+            Please shoot me an email if you want to download PanDineMate. 
+            We would love to share our code for building better products together.
+            <br>
+            <br>
+		</p>
