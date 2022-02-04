@@ -18,9 +18,7 @@ a {
   text-decoration: none;
   color: #999;
 }
-a:hover {
-  text-decoration: underline;
-}
+
 h1 {
   font-weight: bold;
   font-size: 3em;
@@ -37,6 +35,12 @@ h3 {
   font-size: 1.1em;
   font-family: "Helvetica", "Arial", "Sans-Serif";
   margin-top: 20px;
+  color: #333;
+}
+
+a:hover {
+  /* text-decoration: none; */
+  color: rgb(70, 70, 70);
 }
 
 p {
@@ -195,4 +199,16 @@ img.skillicon {
 #das {
   color: rgb(52, 137, 158);
   font-weight: bold;
+}
+
+.current {
+  color: rgb(16, 78, 37);
+}
+
+.description {
+  text-align: justify;
+}
+
+.blurb {
+  margin: 100px 100px 5px 5px;
 }
