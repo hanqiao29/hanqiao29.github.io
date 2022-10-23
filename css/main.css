@@ -44,15 +44,12 @@ a:hover {
 }
 
 p {
-  font-size: 1em;
-  line-height: 1.4em;
+  font-size: 15px;
+  line-height: 20px;
   color: #333;
-  /* font-family: "Times New Roman"; */
   font-family: "Roboto","proxima-nova", "Helvetica Neue", "Helvetica", "sans-serif";
-  font-feature-settings: "kern";
   margin-bottom: 20px;
   letter-spacing: 0.3px;
-  font-weight: 400;
 }
 
 p.projectinfo {
