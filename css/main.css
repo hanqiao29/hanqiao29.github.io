@@ -34,7 +34,7 @@ h2 {
 h3 {
   font-size: 1.1em;
   font-family: "Helvetica", "Arial", "Sans-Serif";
-  margin-top: 20px;
+  /* margin-top: 20px; */
   color: #333;
 }
 
@@ -109,7 +109,8 @@ img.skillicon {
 .image {
   opacity: 1;
   display: block;
-  height: 300px;
+  /* width: 60%; */
+  height: 60%;
   transition: 0.3s ease;
   backface-visibility: hidden;
   border-radius: 2%;
@@ -213,5 +214,5 @@ img.skillicon {
 }
 
 .blurb {
-  margin: 50px 100px 5px 5px;
+  /* margin: 50px 100px 5px 5px; */
 }
