@@ -120,6 +120,9 @@ img.skillicon {
 
 #hanpic {
   box-shadow: 0 0 0 0 rgb(159, 162, 163);
+  border-radius: 50%;
+  width: 13%;
+  height: auto;
 }
 
 #ec {
