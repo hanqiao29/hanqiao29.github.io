@@ -109,8 +109,8 @@ img.skillicon {
 .image {
   opacity: 1;
   display: block;
-  /* width: 60%; */
-  height: 60%;
+  width: 60%;
+  /* height: 60%; */
   transition: 0.3s ease;
   backface-visibility: hidden;
   border-radius: 2%;
