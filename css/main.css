@@ -20,6 +20,11 @@ a {
   color: #6e6e6e;
 }
 
+a.pubtitle {
+  text-decoration: none;
+  color: #6e6e6e;
+}
+
 h1 {
   font-weight: bold;
   font-size: 3em;
@@ -32,7 +37,7 @@ h2 {
   margin-bottom: 20px;
   margin-top: 30px;
 }
-h3 {
+h3.hometitle {
   font-size: 16px;
   font-weight: bold;
   font-family: "Helvetica", "Arial", "Sans-Serif";
