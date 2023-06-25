@@ -17,7 +17,7 @@ footer ul li {
 }
 a {
   text-decoration: none;
-  color: #999;
+  color: #6e6e6e;
 }
 
 h1 {
@@ -34,13 +34,14 @@ h2 {
 }
 h3 {
   font-size: 16px;
+  font-weight: bold;
   font-family: "Helvetica", "Arial", "Sans-Serif";
   color: #333;
 }
 
 a:hover {
   /* text-decoration: none; */
-  color: rgb(70, 70, 70);
+  color: rgb(37, 109, 17);
 }
 
 p {
