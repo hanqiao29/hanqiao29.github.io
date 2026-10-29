@@ -142,10 +142,33 @@ img.skillicon {
 }
 
 #hanpic {
-  box-shadow: 0 0 0 0 rgb(159, 162, 163);
-  border-radius: 50%;
-  width: 13%;
+  display: block;
+  width: 100%;
   height: auto;
+  margin: 0;
+  border-radius: 3px;
+  box-shadow: none;
+}
+
+.profile-column {
+  padding-right: 2rem;
+}
+
+.profile-portrait {
+  max-width: 130px;
+  margin-bottom: 1.5rem;
+  box-shadow: 10px 10px 0 rgb(249, 159, 23);
+}
+
+@media (max-width: 767.98px) {
+  .profile-column {
+    padding-right: 15px;
+  }
+
+  .profile-portrait {
+    max-width: 150px;
+    margin-bottom: 2rem;
+  }
 }
 
 #ec {
@@ -244,4 +267,17 @@ img.skillicon {
 
 #design {
   margin-top: 60px;
+}
+
+.news-scroll {
+    max-height: 220px;
+    overflow-y: scroll;
+    padding-right: 12px;
+    line-height: 1.8;
+    scrollbar-width: thin;
+    scrollbar-color: #999 #eee;
+}
+
+.news-scroll p {
+    margin-bottom: 0;
 }
