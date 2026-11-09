@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Pixelify+Sans:wght@400;500&display=swap");
 
 :root {
   --ink: #1c1c1c;
@@ -394,4 +395,23 @@ a.chip-designs:hover {
   color: #0f4256;
   background: linear-gradient(90deg, #bfd5ff 0%, #bdeed7 100%);
   border-color: #5a9fc0;
+}
+/* Intro sentence: hand-drawn "creative practices" vs. pixel "computing tools" */
+.word-creative {
+  font-family: "Caveat", "Bradley Hand", cursive;
+  font-weight: 600;
+  font-size: 1.25em;
+  line-height: 1;
+  background: linear-gradient(90deg, #3b6fe8 0%, #1fa97a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #2a8fb0; /* fallback */
+}
+.word-computing {
+  font-family: "Pixelify Sans", "Courier New", monospace;
+  font-weight: 500;
+  font-size: 0.95em;
+  letter-spacing: 0.02em;
+  color: #1c1c1c;
 }
