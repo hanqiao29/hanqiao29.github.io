@@ -368,7 +368,7 @@ img.skillicon {
 }
 a.chip {
   display: inline-block;
-  padding: 3px 12px;
+  padding: 1px 10px;
   font-size: 0.78em;
   font-weight: 500;
   line-height: 1.6;
