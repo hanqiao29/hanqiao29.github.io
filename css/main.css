@@ -357,3 +357,41 @@ img.skillicon {
 .news-scroll p {
     margin-bottom: 0;
 }
+
+/* Publication link chips */
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: -4px 0 12px;
+}
+a.chip {
+  display: inline-block;
+  padding: 3px 12px;
+  font-size: 0.78em;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  color: var(--soft);
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a.chip:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: rgba(31, 63, 209, 0.05);
+}
+
+/* Colored chips for artifacts beyond the paper */
+a.chip-designs {
+  color: #1d7a5a;
+  background: #e0f5ec;
+  border-color: #c2ead9;
+}
+a.chip-designs:hover {
+  color: #146045;
+  background: #cdeee0;
+  border-color: #1d7a5a;
+}
