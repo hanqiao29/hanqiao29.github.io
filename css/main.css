@@ -386,12 +386,12 @@ a.chip:hover {
 
 /* Colored chips for artifacts beyond the paper */
 a.chip-designs {
-  color: #1d7a5a;
-  background: #e0f5ec;
-  border-color: #c2ead9;
+  color: #17566b;
+  background: linear-gradient(90deg, #d6e4ff 0%, #d4f3e6 100%);
+  border-color: #c3dff0;
 }
 a.chip-designs:hover {
-  color: #146045;
-  background: #cdeee0;
-  border-color: #1d7a5a;
+  color: #0f4256;
+  background: linear-gradient(90deg, #bfd5ff 0%, #bdeed7 100%);
+  border-color: #5a9fc0;
 }
